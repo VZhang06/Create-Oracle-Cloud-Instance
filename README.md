@@ -1,5 +1,5 @@
 # Create-Oracle-Cloud-Instance
-This is a python script which can be used to automatically register oracle cloud server. You need to input your username, email, and password for oracle, and the default option of shape is the Ampere VM.Standard.A1.flex, the best config you can get with always-free.
+This is a python script which can be used to automatically register oracle cloud server. Download  the .py and the .bat files. You need to manually edit your username, email, and password for oracle in the .py file, and edit the path to python and path to the script in .bat. The default option of shape is the Ampere VM.Standard.A1.flex-the best config you can get with always-free.
 
 ## The Python Script
 It needs your username, email, and password to log into your oracle cloud account, and you need to pin the *instance* to your home page, and it will download the SSH key and try to create an instance. If it fails, it will write the result *No resource available*  to a .txt file.  
