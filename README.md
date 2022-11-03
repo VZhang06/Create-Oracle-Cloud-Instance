@@ -5,4 +5,4 @@ This is a python script which can be used to automatically register oracle cloud
 It needs your username, email, and password to log into your oracle cloud account, and you need to pin the *instance* to your home page, and it will download the SSH key and try to create an instance. If it fails, it will write the result *No resource available*  to a .txt file.  
 ## The .BAT File
 You can use this file to run this python script and add it to your Windows task scheduler so that it automatically tries to create instances. You will have to edit the .bat file so that the command line can find the python interpreter and the python script above. The content should be
-`"path_to_python" "path_to_script"`
+`"path_to_python" "path_to_script"` For example, `"E:\Anaconda\python.exe" "E:\Desktop\server1.py"`
